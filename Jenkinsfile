@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                echo 'Cloning the repository...'
+                echo 'Cloning a repository...'
                 // Git auto-clone if you configure repo in Jenkins job
             }
         }
